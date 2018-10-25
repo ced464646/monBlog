@@ -1,0 +1,33 @@
+npm install -g @angular/cli@6
+
+npm install bootstrap@3.3.7 --save
+
+npm install -g npm@6 
+
+npm -v donne 6.4.1
+
+ng -v donne
+
+Angular CLI: 6.2.6
+Node: 8.11.4
+OS: win32 x64
+Angular: 6.1.10
+... animations, common, compiler, compiler-cli, core, forms
+... http, language-service, platform-browser
+... platform-browser-dynamic, router
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.8.6
+@angular-devkit/build-angular     0.8.6
+@angular-devkit/build-optimizer   0.8.6
+@angular-devkit/build-webpack     0.8.6
+@angular-devkit/core              0.8.6
+@angular-devkit/schematics        0.8.6
+@angular/cli                      6.2.6
+@ngtools/webpack                  6.2.6
+@schematics/angular               0.8.6
+@schematics/update                0.8.6
+rxjs                              6.2.2
+typescript                        2.9.2
+webpack                           4.22.0

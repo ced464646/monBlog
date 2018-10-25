@@ -1,0 +1,13 @@
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': postListArrays.loveIts > 0,
+                'list-group-item-danger': postListArrays.loveIts  < 0}">
+    <h4>{{postListArrays.title}} - {{postListArrays.created_at | date: 'd/MM/y à H:mm'}}</h4>
+    <p>{{postListArrays.content}}</p>
+    <p>Love: {{postListArrays.loveIts}}</p>
+    <div class="btn-group btn-group-sm">
+   <a name="loveIt" class="btn btn-success form-control"  (click)="onIncrease()" required [(ngModel)]="postListArrays.loveIts" ngDefaultControl>Love it</a></div>
+   <div class="btn-group btn-group-sm">
+    <a class="btn btn-danger form-control"  (click)="onDecrease()" [(ngModel)]="postListArrays.loveIts" ngDefaultControl>Don't love it</a>
+</div>
+
+</li>
